@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xworkz</title>
+    <style>
+        div{
+            height: 5rem; width: 5rem; background-color: blue;
+            animation: animationName;
+            animation-duration: 2s;
+            animation-iteration-count: 5;
+            animation-delay: 6s;
+        }
+        @keyframes animationName{
+           0%{
+            background-color: aqua;
+            margin-left: 0rem;
+            margin-top: 0rem;
+           }
+           25%{
+            background-color: brown;
+            margin-left: 5rem;
+            margin-top: 0rem;
+           }
+           50%{
+            background-color: yellow;
+            margin-left: 5rem;
+            margin-top: 5rem;
+           }
+           75%{
+            background-color: violet;
+            margin-left: 5rem;
+            margin-top: 0rem;
+           }
+           100%{
+            background-color: yellowgreen;
+            margin-left: 5rem;
+            margin-top: 0rem;
+           }
+        }
+        div .rotate{
+            background-color: antiquewhite;
+            height: 5rem;
+            width: 5rem;
+            transform: rotate(180deg);
+            transition:;
+        }
+        div .rotate:hover{
+            height: 10rem;
+            width: 8rem;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p> hi animation</p>
+    </div>
+    <div>
+        <p> rotate</p>
+    </div>
+</body>
+</html>
